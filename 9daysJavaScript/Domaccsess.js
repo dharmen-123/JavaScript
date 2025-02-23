@@ -9,5 +9,5 @@ para.innerHTML="<b> This is new changed text</b>"
 // par.style.fontsize ="30px"
 
 let buttn = document.getElementById('butt')
-buttn.style.backgroundColor="blue"
-buttn.style.padding="20px"
+buttn.style.backgroundColor="lightblue"
+buttn.style.padding="15px"
