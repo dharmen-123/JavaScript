@@ -16,3 +16,4 @@ img.style.padding="4px"
 img.style.margin="4%"
 img.style.boxShadow="5px 5px 15px 8px black"
 a.append(img)
+tag2.setAttribute('style','background-color:skyblue; color:white; align;center; ')
