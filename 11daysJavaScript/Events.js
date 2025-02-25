@@ -24,5 +24,5 @@ a.append(img)
 
 function text(){
     let a=document.getElementById('head')
-    a.textContent="Zero"
+    a.textContent="zero"
 }

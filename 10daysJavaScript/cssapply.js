@@ -12,7 +12,7 @@ let img=document.createElement('img')
 img.src='car bunglow copy.jpg'
 img.style.width='400px'
 img.style.borderRadius="15px"
-img.style.padding="2px"
+img.style.padding="1px"
 img.style.margin="4%"
 img.style.boxShadow="5px 5px 15px 8px black"
 a.append(img)
