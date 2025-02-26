@@ -6,12 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <script src="Events.js"></script>
-    <h1 id="head"> 0</h1>
-     <button onclick="plus()"> + </button>
-     <button onclick="minus()"> - </button>
-     
+    <style>
+        #flex{
+            display: flex;
 
+        }
+        .box img{
+            border:1px solid black ;
+            margin-top: 6%;
+            margin-left: 10%;
+        }
+    </style>
+    <script src="Events.js"></script>
+      <!-- quantity<h1 id="head">0</h1>
+     <button onclick="plus()"> + </button>
+     <button onclick="minus()"> - </button> -->
+     <div id="flex">
+     <div>
+       <h1 onmouseenter="App()">Apple</h1>
+       <h1 onmouseenter="Ora()">Orange</h1>
+       <h1 onmouseenter="Wat()">Watermelon</h1>
+       <h1 onmouseenter="Pin()">Pineapple</h1>
+       <h1 onmouseenter="Sap()">Sapodia</h1>
+     </div>
+     <div class="box">
+        <img id="change" src="apple.jpeg" alt=""  width="200px" height="200px">
+     </div>
+    </div>
 </body>
 </html>
