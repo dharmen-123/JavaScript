@@ -26,3 +26,15 @@ function text(){
     let a=document.getElementById('head')
     a.textContent="zero"
 }
+function Red(){
+    let R=document.body
+    R.style.backgroundColor="red"
+}
+function Blue(){
+
+    R.style.backgroundColor="Blue"
+
+}
+function Yellow(){
+    R.style.backgroundColor="Yellow"
+}
