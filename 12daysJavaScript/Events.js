@@ -9,19 +9,23 @@
 // }
 // }
 function App(){
-let t1=document.getElementById('change')
+    let t1=document.getElementById('change')
     t1.src="apple.jpeg"
 }
 function Ora(){
+let t1=document.getElementById('change')
     t1.src="orange.jpeg"
 }
 function Wat(){
+let t1=document.getElementById('change')
     t1.src="watermelon.jpeg"
 }
 function Pin(){
-    t1.src="12daysJavaScript\pineapple.jpeg"
+let t1=document.getElementById('change')
+    t1.src="pineapple.jpeg"
 }
 function Sap(){
+let t1=document.getElementById('change')
     t1.src="sapodila.jpeg"
 }
 
