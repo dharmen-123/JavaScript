@@ -21,13 +21,13 @@ let c=a
 document.write("The value of a:"+ a +"<br>"+" The value of b:"+ b+"<br>")
 
 //Q.3
-// let n=parseInt(prompt("Enter the number"))
-// if(n%2==0){
-//     document.write("This is even number")
-// }
-// else{
-//     document.write("this is odd number")
-// }
+let n=parseInt(prompt("Enter the number"))
+if(n%2==0){
+    document.write("This is even number"+"<br>")
+}
+else{
+    document.write("this is odd number"+"<br>")
+}
 
 //Q.4
 let age =parseInt(prompt("Enter the number"))
