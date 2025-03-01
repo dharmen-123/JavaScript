@@ -6,7 +6,8 @@
 // c.style.color="blue"
 // let list = document.querySelectorAll('li')
 // list[2].style.color="red"
-
+  
+  //Practices Questions
 
   //Q.1 
 let nam ="Dharmendra Chilhate"
