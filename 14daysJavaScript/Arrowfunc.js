@@ -8,3 +8,6 @@
 let fun=(r)=>{return  3.14*r*r}
 let val=parseInt(prompt("enter the radius value"))
 console.log(fun(val))
+
+let mt=(n1,n2)=>(n1*n2)
+console.log(mt(3,4));
