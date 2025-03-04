@@ -6,6 +6,9 @@
 let h=0
 function num(){
   let head=document.getElementById('head')
-  head.innerHTML=h++
 }
-setInterval(()=>num() , 2000)
+let st = setInterval(()=>head.innerHTML=h++ , 1000)
+
+function stp(){
+    clearInterval(st)
+}
