@@ -26,6 +26,7 @@ let t1=document.getElementById('change')
 }
 function Sap(){
 let t1=document.getElementById('change')
+
     t1.src="sapodila.jpeg"
 }
 

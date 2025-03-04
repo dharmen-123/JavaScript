@@ -1,10 +1,10 @@
-   //EVENTS
+//    EVENTS
 // It is a Action which is perform by the user on our web page
 // 1. Mouse Event
-//On click is work for left click
-//Event Firing
+// On click is work for left click
+// Event Firing
 // Events
-//on click  , ondblclick  ,onmouseenter
+// on click  , ondblclick  ,onmouseenter
 
 function fun()
 {
