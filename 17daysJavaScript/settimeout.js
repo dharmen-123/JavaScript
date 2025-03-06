@@ -13,4 +13,4 @@ function fun(){
     head.innerText= a
     return false
 }
-// setTimeout(()=>{fun()},2000)
+setTimeout(()=>{fun()},2000)
