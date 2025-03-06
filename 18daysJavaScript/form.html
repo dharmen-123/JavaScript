@@ -9,13 +9,14 @@
 <body>
     
 
-    <form action="">
-        <label for="">Name</label><br>
-       <input type="text" placeholder="Enter your name"><br>
-       <label for="">Email</label><br>
-       <input type="text" placeholder="Email id"><br>
+    <form action="" onsubmit="return form()">
+        <label for=""><i class="fa-solid fa-user"></i>Name</label><br>
+       <input type="text" id="name" placeholder="Enter your name"><br>
+       <span id="nameerror"></span><br>
+       <label for=""><i class="fa-solid fa-envelope"></i>Email</label><br>
+       <input type="text" id="email" placeholder="Email id"><br> <br>
        <label for="">Age</label><br>
-       <input type="text" placeholder="Age"><br><br>
+       <input type="text" id="age" placeholder="Age"><br><br>
        <button>Submit</button>
     </form>
 
