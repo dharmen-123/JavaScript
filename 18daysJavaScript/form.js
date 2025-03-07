@@ -15,11 +15,16 @@ function form(){
         document.querySelector('#email').focus()
         return false
       }
-      else  if(!(email.includes('@gmail.com'))){
-         alert("Please valid email must have @gmail.com")
+      else  if(!(email.includes('@'))){
+         alert("Please valid email must have @")
          document.querySelector('#email').focus()
        return false
       }
+      else  if(!(email.includes('yahoo.com'))){
+        alert("Please valid email must have yahoo.com")
+        document.querySelector('#email').focus()
+      return false
+        }
       else if(age==""){
         alert("please Enter your age")
         document.querySelector('#age').focus()
@@ -29,6 +34,11 @@ function form(){
         alert("Please Enter the number")
         document.querySelector('#age').focus()
      return false
+      }
+      else if(age>=100){
+        alert("Age is not more than two digit")
+        document.querySelector('#age').focus()
+        return false
       }
 
 }
