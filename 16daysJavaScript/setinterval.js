@@ -9,6 +9,7 @@ function num(){
   let head=document.getElementById('head')
   setInterval(()=>head.innerHTML=h++ , 1000)
 }
+
 function stp(){
     clearInterval(st)
 }

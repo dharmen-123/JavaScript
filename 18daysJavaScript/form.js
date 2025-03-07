@@ -2,6 +2,7 @@ function form(){
     let name =document.querySelector('#name').value 
     let email =document.querySelector('#email').value
     let age =document.querySelector('#age').value
+    let pass =document.querySelector('#pass').value
         
        if(name==""){
         // alert("please Enter your name")
@@ -38,6 +39,16 @@ function form(){
       else if(age>=100){
         alert("Age is not more than two digit")
         document.querySelector('#age').focus()
+        return false
+      }
+      else if(pass==""){
+        alert("please Enetr the password")
+        document.querySelector('#pass').focus()
+        return false
+      }
+      else if(!(pass.match(/[@_#]/))){
+        alert("please use speacial character")
+        document.querySelector('#pass').focus()
         return false
       }
 
