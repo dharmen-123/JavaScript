@@ -5,10 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #Signup{
+            align-items: left;
+            display: flex;
+            padding: 3%;
+            background-image: url(/10daysJavaScript/car\ bunglow\ copy.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            backdrop-filter: blur(60px);
+            justify-content: center;
+            border: 2px solid rgba(101, 220, 250, 0.915);
+            box-shadow: 3px 3px 10px 3px rgb(149, 149, 244);
+            background-color:  white;
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+        }
+        #Signup form label{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 2%;
+            color: rgb(248, 98, 5);
+        }
+        #Signup form input{
+            border: 3px solid rgb(254, 253, 253);
+            border-radius: 10px;
+            width: 280px;
+            color: rgb(255, 254, 254);
+            background: transparent;
+            font-size: 20px;
+            height: 40px;
+        }
+        #Signup form button{
+            border-radius: 20px;
+            background-color: rgb(4, 163, 249);
+            border: none;
+            margin-left: 25%;
+            color: white;
+            font-size: 25px;
+            align-items: center;
+        }
+      </style>
 </head>
 <body>
     
-
+   <div id="Signup">
     <form action="" onsubmit="return form()">
         <label for=""><i class="fa-solid fa-user"></i>Name</label><br>
        <input type="text" id="name" placeholder="Enter your name"><br>
@@ -17,11 +71,13 @@
        <input type="text" id="email" placeholder="Email id"><br> <br>
        <label for="">Age</label><br>
        <input type="text" id="age" placeholder="Age"><br><br>
-       <label for="">Password</label><br>
+       <label for=""><i class="fa-solid fa-lock"></i>Password</label><br>
        <input type="text" placeholder="Enter Password" id="pass"><br><br>
+       <label for=""><i class="fa-solid fa-phone"></i>Contact</label><br>
+       <input type="text" placeholder="Enter Mobile Number" id="numb"><br><br>
        <button>Submit</button>
     </form>
-
+</div>
     <script src="form.js"></script>
 </body>
 </html>

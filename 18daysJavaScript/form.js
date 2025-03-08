@@ -3,6 +3,7 @@ function form(){
     let email =document.querySelector('#email').value
     let age =document.querySelector('#age').value
     let pass =document.querySelector('#pass').value
+    let numb =document.querySelector('#numb').value
         
        if(name==""){
         // alert("please Enter your name")
@@ -51,5 +52,19 @@ function form(){
         document.querySelector('#pass').focus()
         return false
       }
-
+      else if(numb==""){
+        alert("please Enter Contact number")
+        document.querySelector('#numb').focus()
+        return false
+      }
+      else if(isNaN(numb)){
+        alert("Please Enter the number")
+        document.querySelector('#numb').focus()
+     return false
+      }
+      else if(numb.length>100 || numb.length<100){
+        alert("Enter 10 digit number")
+        document.querySelector('#numb').focus()
+        return false
+      }
 }

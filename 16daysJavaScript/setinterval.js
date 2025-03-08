@@ -4,10 +4,10 @@
 // setInterval(()=>document.write(n++),2000)
 
 let h=0
-let st;
+let st
 function num(){
   let head=document.getElementById('head')
-  setInterval(()=>head.innerHTML=h++ , 1000)
+  st = setInterval(()=>head.innerHTML=h++ , 1000)
 }
 
 function stp(){
