@@ -4,6 +4,7 @@ let dbl = document.querySelector('#dbl')
 let onme = document.querySelector('#onme')
 let onml = document.querySelector('#onml')
 
+
 btn.addEventListener('click',()=>{alert("hello")})
 onc.addEventListener('dblclick',()=>{alert("hello")})
 dbl.addEventListener('dblclick',()=>{alert("hello")})
