@@ -7,3 +7,7 @@
 let ar1=[12,23.4,'D',"JavaScript",true]
 for(let vl of ar1)
 console.log(vl);
+
+for(let k in ar1)
+console.log(k);
+
