@@ -11,9 +11,9 @@
 // for(let k in ar1)
 // console.log(k);
 
-
-let ar2=[]
-for(let i=0 ;i<5;i++){
-vl[i]=parseInt(prompt("Enter the values"))
+let arr=[];
+for(let i=0; i<5; i++) {
+    arr.parseInt(prompt("Enter the value"));
 }
-console.log(vl);
+console.log(arr);
+
