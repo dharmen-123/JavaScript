@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <style>
+        #flex{
+            display: flex;
+
+        }
+        .box img{
+            border:1px solid black ;
+            margin-top: 6%;
+            margin-left: 10%;
+        }
+    </style>
+     <!-- task 1 -->
+    <h1 id="head">Hello world</h1>
+
+     <!-- task 2 -->
+   <button id="red" onclick="change()">red</button>
+   <div class="box">
+      hello
+   </div>
+   <br><br>
+   <button id="newl" onclick="add()">New Item</button>
+  <div id="list">
+    <ul  id="mylist">
+      <li>NEW LIST</li>
+    </ul>
+  </div>
+   <!-- task 4 -->
+   <button id="hd" onclick="hide()">Hide</button>
+   <h2 id="hidebtn">Hello Everyone</h2>
+
+   <div id="flex">
+    <div>
+      <h1 onmouseenter="lap()">Laptop</h1>
+      <h1 onmouseenter="mob()">Mobile</h1>
+      <h1 onmouseenter="tab()">tablet</h1>
+      <h1 onmouseenter="cam()">Camera</h1>
+      <h1 onmouseenter="tv()">TV</h1>
+    </div>
+    <div class="box">
+       <img id="change" src="mobile.jpeg" alt=""  width="200px" height="200px">
+    </div>
+   </div>
+    <script src="task2.js"></script>
+</body>
+</html>
