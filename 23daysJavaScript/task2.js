@@ -14,12 +14,10 @@ function change(){
     box.style.backgroundColor="red"
 }
 
-// let list =document.getElementById('list')
 function add(){
     let n =document.createElement('li')
     n.innerHTML = "NEW LIST"
     let mylist=document.getElementById('mylist')
-//    let  a = document.body.div.ul
     mylist.append(n)
 }
                  //   task 4
