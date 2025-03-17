@@ -18,6 +18,7 @@ for(let i=0;i<10;i++){
     }
 }
 
+//splice function is use to remove or add at specific position
 
 let inp=document.getElementById('inp'),
    box = document.getElementById('box');
