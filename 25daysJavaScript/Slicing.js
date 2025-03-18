@@ -11,9 +11,11 @@ let ar1=["cybrom" , 28 , 'M', "Milan" ,46]
 // let [name,age , shop , cnt]=["javaScript",29,"milan",947]
 // console.log(name);
 
+ //Array of Array
+ 
 let ar2=["hello",28 ,'A',297]
 // let ar4=['H',297]
-// let ar3=[ar1,ar2]  //Array of Array
+// let ar3=[ar1,ar2] 
 let ar3=[...ar1,...ar2]
 console.log(ar3);
 
