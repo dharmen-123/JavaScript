@@ -5,6 +5,7 @@ const body= document.querySelector('body')
 body.setAttribute("style","background-color:grey; display:flex; justify-content:center; align-items:center; height:100vh;")
 const text=document.querySelector('.text')
 text.setAttribute("style","text-align:center; font-size:50px;color:red;")
+
 let h=0
 
 let head=document.getElementById('head')
