@@ -17,8 +17,14 @@ let ar2=["hello",28 ,'A',297]
 // let ar4=['H',297]
 // let ar3=[ar1,ar2] 
 let ar3=[...ar1,...ar2]
-console.log(ar3);
+// console.log(ar3);
 
 
 //Spread operator / rest Operator  denoted by ...
 // rest operator used in function 
+
+let ar5=[38,'A',"new"] , ar6=[98,'B',"@.com",38.43]
+const ar7=[...ar5,...ar6]
+console.log(ar7);
+
+
