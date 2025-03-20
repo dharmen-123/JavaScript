@@ -4,4 +4,4 @@ let stu={
     stu_contact:1234,
     stu_branch:"AIML"
 }
-console.log(stu);
+console.log(stu.stu_name);
