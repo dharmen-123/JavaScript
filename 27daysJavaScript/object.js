@@ -4,8 +4,9 @@ let stu={
     stu_contact:1234,
     stu_branch:"AIML",
     stu_account:{
-        balance:20000,
+        balance:200000,
         acc_num:8765799
     }
 }
-console.log(stu.stu_account.acc_num);
+console.log(stu.stu_name,stu.stu_branch);
+console.log(stu.stu_account.balance);
