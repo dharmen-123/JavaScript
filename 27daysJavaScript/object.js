@@ -17,6 +17,7 @@ function data(){
 // let age= document.querySelector('#age').value
 // let contact= document.querySelector('#contact').value
 let person ={
+    
     name: document.querySelector('#name').value ,
     age: document.querySelector('#age').value,
     contact: document.querySelector('#contact').value  

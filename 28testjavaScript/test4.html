@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test4.css">
+</head>
+<body>
+    
+    <div id="maintime">
+        <h1>Timer</h1>
+        <div id="time">
+           <span id="hrs">00</span>
+           <span>:</span>
+           <span id="min">00</span>
+           <span>:</span>
+           <span id="sec">00</span>
+        </div>
+        <div>
+             <button onclick="start()">Start</button>
+             <button onclick="stop()">stop</button>
+             <button onclick="reset()">reset</button>
+        </div>
+    </div>
+   
+
+    <!-- TASK 2 START FROM HERE -->
+
+    <br><br><br><br>
+    <div class="counter">
+        <h1>Counter</h1>
+        <div>
+            <h2 id="count">0</h2>
+            <button onclick ="plus()"> + </button>
+            <button onclick ="min()"> - </button>
+        </div>
+    </div>
+
+    <!-- TASK 3 START FROM HERE -->
+
+     <div>
+        <h1>change the theme of web</h1>
+        <button id="night1" onclick="night()">night</button>
+        <button id="day1" onclick="day()">day</button>
+     </div>
+
+
+     <!-- TASK 4 START FROM HERE -->
+    <script src="test4.js">
+
+    </script>
+</body>
+</html>
