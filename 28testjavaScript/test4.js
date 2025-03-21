@@ -1,33 +1,33 @@
     //    TASK 1 START FROM HERE
    
-let hrs =document.querySelector('#hrs')
-let min =document.querySelector('#min')
-let sec =document.querySelector('#sec')
+// let hrs =document.querySelector('#hrs')
+// let min =document.querySelector('#min')
+// let sec =document.querySelector('#sec')
 
-let stp;
+// let stp;
 
-function start(){
-    let [h,m,s]=[0,0,0]
-    stp=setInterval(()=>{
-        sec.innerHTML=s++;
-        if(s==60){
-            s=0;
-            min.innerHTML=m++;
-            if(m==60){
-                m=0;
-                hrs.innerHTML=h++;
-            }
-        }
-    },10)
-}
-function stop(){
-        clearInterval(stp)
-}
-function reset(){
-    hrs.innerHTML="00"
-    min.innerHTML="00"
-    sec.innerHTML="00"
-}
+// function start(){
+//     let [h,m,s]=[0,0,0]
+//     stp=setInterval(()=>{
+//         sec.innerHTML=s++;
+//         if(s==60){
+//             s=0;
+//             min.innerHTML=m++;
+//             if(m==60){
+//                 m=0;
+//                 hrs.innerHTML=h++;
+//             }
+//         }
+//     },10)
+// }
+// function stop(){
+//         clearInterval(stp)
+// }
+// function reset(){
+//     hrs.innerHTML="00"
+//     min.innerHTML="00"
+//     sec.innerHTML="00"
+// }
 
 
 //     //    TASK 2 START FROM HERE
@@ -52,7 +52,9 @@ d.style.display="none"
 function night(){
     
 }
-function day
+function day(){
+    
+}
 
 
 // TASK 4 START FROM HERE
