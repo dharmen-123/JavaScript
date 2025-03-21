@@ -50,10 +50,14 @@ let n = document.querySelector('#night1')
 let d = document.querySelector('#day1')
 d.style.display="none"
 function night(){
-    
+    body.style.backgroundColor="black"
+    n.style.display="none"
+    d.style.display="block"
 }
 function day(){
-    
+    body.style.backgroundColor="white"
+    n.style.display="block"
+    d.style.display="none"
 }
 
 
