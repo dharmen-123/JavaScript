@@ -37,6 +37,22 @@ delete obj1.type
   obj1.year=1992
   console.log(obj1);
 
+  // FIND THE KEY OF VALUE IN OBJECTS
 for(let V in obj1){
-    console.log(V);
+    console.log(obj1[V]);
 }
+                              //OBJECT DOES NOT SUPPORT FOR OF LOOP
+
+// for print the values of key using for in loop
+// SYNTAX console.log(obj1[V]);
+
+  //FOR FIND THE ANY SPECIFIC FROM THE OBJECTS USE this syntax
+  // Object.keys(object-name[index])
+  // In this Object is the keyword or .keys is the function for accessinh the keys of the object
+// Object.keys() function return the values in array format we can acces the key throught pass the indexing
+
+let k= Object.keys(obj1)
+console.log(k[1]);
+
+    //Object.values()  is also the function which is used to accesing the values  of the objects
+
