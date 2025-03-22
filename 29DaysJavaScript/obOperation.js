@@ -55,4 +55,7 @@ let k= Object.keys(obj1)
 console.log(k[1]);
 
     //Object.values()  is also the function which is used to accesing the values  of the objects
+let v= Object.values(obj1)
+console.log(v[1]);
+
 
