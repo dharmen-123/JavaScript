@@ -11,7 +11,6 @@
 // console.log(stu.stu_name,stu.stu_branch);
 // console.log(stu.stu_account.balance);
 
-
 function data(){
 // let name=document.querySelector('#name').value
 // let age= document.querySelector('#age').value
