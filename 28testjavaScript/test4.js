@@ -47,28 +47,15 @@ function minus(){
 //  TASK 3 START FROM HERE
 
 let body = document.querySelector('body')
-let n = document.querySelector('#night1')
-let d = document.querySelector('#day1')
 body.style.backgroundColor="white"
-// d.style.display="none"
-// function night(){
-//     body.style.backgroundColor="black"
-//     body.style.color="white"
-//     n.style.display="none"
-//     d.style.display="block"
-// }
-// function day(){
-//     body.style.backgroundColor="white"
-//     body.style.color="black"
-//     n.style.display="block"
-//     d.style.display="none"
-// }
-function night(){
+function theme(){
     if(body.style.backgroundColor=="white"){
             body.style.backgroundColor="black"
+            body.style.color="white"
     }
     else{
        body.style.backgroundColor="white"
+       body.style.color="black"
     }
 }
 
