@@ -49,18 +49,27 @@ function minus(){
 let body = document.querySelector('body')
 let n = document.querySelector('#night1')
 let d = document.querySelector('#day1')
-d.style.display="none"
+body.style.backgroundColor="white"
+// d.style.display="none"
+// function night(){
+//     body.style.backgroundColor="black"
+//     body.style.color="white"
+//     n.style.display="none"
+//     d.style.display="block"
+// }
+// function day(){
+//     body.style.backgroundColor="white"
+//     body.style.color="black"
+//     n.style.display="block"
+//     d.style.display="none"
+// }
 function night(){
-    body.style.backgroundColor="black"
-    body.style.color="white"
-    n.style.display="none"
-    d.style.display="block"
-}
-function day(){
-    body.style.backgroundColor="white"
-    body.style.color="black"
-    n.style.display="block"
-    d.style.display="none"
+    if(body.style.backgroundColor=="white"){
+            body.style.backgroundColor="black"
+    }
+    else{
+       body.style.backgroundColor="white"
+    }
 }
 
 
