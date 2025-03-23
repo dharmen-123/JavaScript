@@ -21,7 +21,7 @@ function start(){
     },10)
 }
 function stop(){
-        clearInterval(stp)
+        clearInterval(stp);
 }
 function reset(){
     hrs.innerHTML="00"
@@ -38,7 +38,7 @@ let c=0;
 function plus(){
    count.innerHTML = ++c;
 }
-function min(){
+function minus(){
      if(c>0){
         count.innerHTML= --c;
      }
