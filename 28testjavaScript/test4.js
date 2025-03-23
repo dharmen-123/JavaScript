@@ -59,7 +59,6 @@ function theme(){
     }
 }
 
-
 // TASK 4 START FROM HERE
 
 let ar1=[1,2,3,4,5]
