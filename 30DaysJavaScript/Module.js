@@ -6,6 +6,7 @@
 // Default is used when only one fuction is used
 // when any file have many function then used named import and export
 
+
 import add from './func.js'
 let ans= add(10,5)
 console.log(ans);
