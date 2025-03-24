@@ -7,3 +7,5 @@ function sub(a,b){
 }
 // export default add
 export {add, sub}
+
+// in default name is change is directly 

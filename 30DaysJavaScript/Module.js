@@ -14,8 +14,8 @@
 // By using Named import export
 
 // import {add, sub} from './func.js'
-// By change the name os function 
 
+// By change the name of function 
 import {add as Sum , sub as Minus} from './func.js'
 
 let ans= Sum(10,5)
