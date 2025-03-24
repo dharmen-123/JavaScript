@@ -59,4 +59,12 @@ console.log(k[1]);
 let v= Object.values(obj1)
 console.log(v[1]);
 
+// Destructuring of object
+
+let {name, age ,contact}={
+    name:"dhamendra",
+    age:20,
+    contact:987658
+}
+console.log(name);
 
