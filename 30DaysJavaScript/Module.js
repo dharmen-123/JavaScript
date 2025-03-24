@@ -7,5 +7,5 @@
 // when any file have many function then used named import and export
 
 import add from './func.js'
-let ans= add(20,22)
+let ans= add(10,5)
 console.log(ans);
