@@ -4,27 +4,27 @@
 let arr=[
     
     {
-        name: "Harsh",
-        attendence: "85%",
-        productivity: "good",
+        name: "Dhamendra",
+        attendence: "95%",
+        productivity: "Normal",
         age: 20
     },
         
     { 
-        name: "nikhil",
-        attendence: "85%",
+        name: "Avanish",
+        attendence: "75%",
         productivity: "excellent",
-         age: 22
+         age: 19
     },
     
     { 
-        name: "Harshal",
+        name: "Amit",
         attendence: "85%",
         productivity: "good",
-         age: 26
+         age: 21
     }
 ]
-// console.log(arr[1])
+console.log(arr[0])
 let newob={
     name: "pradeep",
     attendence: "70%",
@@ -45,11 +45,11 @@ let newob={
 // function ke andaar argument ko accet karna
 
 let arname=arr.map((e)=>{return e.name})
-console.log(arname);
+// console.log(arname);
 
 
 //filter
 
 
 let fl=arr.filter((e)=>{return e.age>23})
-console.log(fl);
+// console.log(fl);
