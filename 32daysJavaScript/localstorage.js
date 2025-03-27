@@ -32,3 +32,4 @@ localStorage.setItem("userdata",JSON.stringify(obj))
 
 let user=JSON.parse(localStorage.getItem('userdata'))
 console.log(user.city)
+.JSON.stringify 
