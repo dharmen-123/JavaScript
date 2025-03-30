@@ -42,6 +42,8 @@ arr.push(newob)
 let arname=arr.map((e)=>{return e.name})
 
 // console.log(arname);
+let arobj=arr.map((e)=>{return e.productivity})
+console.log(arobj);
 
 let ar2 =arr.map((a)=>{return a.attendence })
 // console.log(ar2);
@@ -51,7 +53,7 @@ let ar2 =arr.map((a)=>{return a.attendence })
 //  })
 // console.log(ar3);
 
-    //filter
+    // FILTER
 // In filter method inside the function condition is passed if condition is true then it is working
 
 let fl = arr.filter((e)=>{return e.age>23})
@@ -59,7 +61,7 @@ let fl = arr.filter((e)=>{return e.age>23})
 
 let f2=[29,32,10,23,20,40,28]
 let fr2 = f2.filter((v)=>{
-    return v < 10
+    return v < 30
 })
-console.log(fr2,f2)
+// console.log(fr2)
 
