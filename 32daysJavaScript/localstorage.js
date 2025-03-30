@@ -15,9 +15,9 @@ localStorage.setItem("Userage","21")
 localStorage.setItem("Usercontact","123456789")
 
 let name=localStorage.getItem("Username")
-console.log(name)
+// console.log(name)
 let age=localStorage.getItem("Userage")
-console.log(age)
+// console.log(age)
 
 localStorage.removeItem('Userage')  // removes perticular item
 localStorage.clear()    //removes all data
@@ -31,5 +31,5 @@ let obj={
 localStorage.setItem("userdata",JSON.stringify(obj))
 
 let user=JSON.parse(localStorage.getItem('userdata'))
-console.log(user.city)
+// console.log(user.city)
 .JSON.stringify 
