@@ -55,7 +55,8 @@ let ar2 =arr.map((a)=>{return a.attendence })
 // In filter method inside the function condition is passed if condition is true then it is working
 
 let fl = arr.filter((e)=>{return e.age>23})
-console.log(fl);
+// console.log(fl);
+
 let f2=[29,32,10,23,20,40,28]
 let fr2 = f2.filter((v)=>{
     return v < 10
