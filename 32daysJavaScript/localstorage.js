@@ -11,7 +11,7 @@
 
 // let naam = prompt("Enter your name")
 //                      key      value
-localStorage.setItem("Username",naam)
+localStorage.setItem("Username","Dharmendra")
 localStorage.setItem("Userage","20")
 localStorage.setItem("Usercontact","92726228")
 
@@ -32,4 +32,3 @@ localStorage.setItem("userdata",JSON.stringify(obj))
 
 let user=JSON.parse(localStorage.getItem('userdata'))
 console.log(user.city)
-// .JSON.stringify 
