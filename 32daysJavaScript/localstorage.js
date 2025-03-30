@@ -11,7 +11,7 @@
 
 // let naam = prompt("Enter your name")
 //                      key      value
-localStorage.setItem("Username","Dharmendra")
+localStorage.setItem("Username","Dhamendra")
 localStorage.setItem("Userage","20")
 localStorage.setItem("Usercontact","92726228")
 
