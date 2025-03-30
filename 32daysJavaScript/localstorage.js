@@ -8,14 +8,15 @@
 
 // local storage me data set key value ke formate me hoga 
 // key value ka type string hoga
-let naam = prompt("Enter your name")
+
+// let naam = prompt("Enter your name")
 //                      key      value
 localStorage.setItem("Username",naam)
 localStorage.setItem("Userage","20")
 localStorage.setItem("Usercontact","92726228")
 
 let name=localStorage.getItem("Username")
-console.log(name)
+// console.log(name)
 let age=localStorage.getItem("Userage")
 // console.log(age)
 
@@ -23,13 +24,12 @@ localStorage.removeItem('Userage')  // removes perticular item
 localStorage.clear()    //removes all data
 
 
-
-
 let obj={
-    name:"Harsh", contact:123456789, city:"Bhopal"
+    name:"Dhamendra", contact:123456789, city:"Mandideep"
 }
+
 localStorage.setItem("userdata",JSON.stringify(obj))
 
 let user=JSON.parse(localStorage.getItem('userdata'))
-// console.log(user.city)
+console.log(user.city)
 // .JSON.stringify 
