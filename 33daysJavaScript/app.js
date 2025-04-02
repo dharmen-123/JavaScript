@@ -17,7 +17,6 @@ console.log(a);
 
 console.log(nam2.length);
 
-
 // API Application Programming Interface 
 // Through the API we can use the services from the server in our web  page 
 
