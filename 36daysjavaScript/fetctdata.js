@@ -7,7 +7,5 @@ let fetchData=async()=>{
     let data=await resp.json()
     console.log(data);
     
-
 }
-
 fetchData()
