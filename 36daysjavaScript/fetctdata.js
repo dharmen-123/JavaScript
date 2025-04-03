@@ -19,7 +19,6 @@ let fetchData=async()=>{
               <td>${e.person} </td>
             </tr>
         
-        
         `
 
     })
