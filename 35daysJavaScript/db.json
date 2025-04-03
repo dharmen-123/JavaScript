@@ -9,18 +9,18 @@
            "person":5
         },
         {
-            "name":"dharmendra",
-           "age":20,
+            "name":"raj",
+           "age":19,
            "addhar":30284,
-           "Time":"10:20",
-           "person":5
+           "Time":"11:00",
+           "person":2
         },
         {
-            "name":"dharmendra",
-           "age":20,
+            "name":"Amit",
+           "age":21,
            "addhar":30284,
-           "Time":"10:20",
-           "person":5
+           "Time":"10:30",
+           "person":6
         }
     ]
 }
