@@ -1,0 +1,26 @@
+{
+
+    "Hotel":[
+        {
+            "name":"dharmendra",
+           "age":20,
+           "addhar":30284,
+           "Time":"10:20",
+           "person":5
+        },
+        {
+            "name":"dharmendra",
+           "age":20,
+           "addhar":30284,
+           "Time":"10:20",
+           "person":5
+        },
+        {
+            "name":"dharmendra",
+           "age":20,
+           "addhar":30284,
+           "Time":"10:20",
+           "person":5
+        }
+    ]
+}
