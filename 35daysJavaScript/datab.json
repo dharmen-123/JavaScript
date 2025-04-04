@@ -1,26 +1,55 @@
 {
 
-    "Hotel":[
+    "hotel":[
         {
             "name":"dharmendra",
-           "age":20,
-           "addhar":30284,
-           "Time":"10:20",
-           "person":5
+            "age":20,
+            "addhar-no":97867,
+            "Mo.Number":9734457869,
+            "Time":"10:20",
+            "checkin":"morning",
+            "person":4,
+            "price":2000
         },
         {
-            "name":"raj",
-           "age":19,
-           "addhar":30284,
-           "Time":"11:00",
-           "person":2
+           "name":"Amit",
+            "age":21,
+            "addhar-no":97867,
+            "Mo.Number":9755649869,
+            "Time":"10:20",
+            "checkin":"morning",
+            "person":4,
+            "price":2000
         },
         {
-            "name":"Amit",
-           "age":21,
-           "addhar":30284,
-           "Time":"10:30",
-           "person":6
-        }
+           "name":"Avanish",
+            "age":18,
+            "addhar-no":97867,
+            "Mo.Number":8765869869,
+            "Time":"12:20",
+            "checkin":"morning",
+            "person":6,
+            "price":3000
+        },
+        {
+            "name":"Harsh",
+             "age":19,
+             "addhar-no":97867,
+             "Mo.Number":6755339869,
+             "Time":"10:50",
+             "checkin":"morning",
+             "person":5,
+             "price":2500
+         },
+         {
+            "name":"Aman",
+             "age":20,
+             "addhar-no":9786765,
+             "Mo.Number":9869354345,
+             "Time":"11:20",
+             "checkin":"morning",
+             "person":3,
+             "price":1000
+         }
     ]
 }
