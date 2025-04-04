@@ -9,23 +9,20 @@ let fetchData=async()=>{
     
     let tabledata=document.querySelector('#table-data')
 
-    data.map((a)=>{
+    data.map((key)=>{
        
-        tabledata.innerHTML +=`
+        tabledata.innerHTML+=`
             <tr>
-              <td>${a.name} </td>
-              <td>${a.age} </td>
-              <td>${a.addhar-no} </td>
-              <td>${a.Mo.Number} </td>
-              <td>${a.Time} </td>
-              <td>${a.checkin} </td>
-              <td>${a.person} </td>
-              <td>${a.price} </td>
+              <td>${key.name} </td>
+              <td>${key.age} </td>
+              <td>${key.addharno} </td>
+              <td>${key.MoNumber} </td>
+              <td>${key.Time} </td>
+              <td>${key.checkin} </td>
+              <td>${key.person} </td>
+              <td>${key.price} </td>
             </tr>
-
-        `
-
-    })
+        ` })
 
 }
 
