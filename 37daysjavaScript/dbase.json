@@ -1,104 +1,81 @@
 {
-    "College":[
-        {
-            "name":"Dharmendra",
-            "Course":"Btech",
-            "Branch":"AIML",
-            "number":9383739292,
-            "Bus":"Not-include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Amit",
-            "Course":"Btech",
-            "Branch":"ME",
-            "number":9398739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Avanish",
-            "Course":"Btech",
-            "Branch":"AIML",
-            "number":6758739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Harsh",
-            "Course":"Btech",
-            "Branch":"CSE",
-            "number":9383739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"harshit",
-            "Course":"Btech",
-            "Branch":"CE",
-            "number":9383739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Prince",
-            "Course":"Btech",
-            "Branch":"CSE",
-            "number":9383739292,
-            "Bus":"Not-include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Atul",
-            "Course":"Btech",
-            "Branch":"CSIT",
-            "number":9383739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Abhishek",
-            "Course":"Btech",
-            "Branch":"CSCY",
-            "number":9383739292,
-            "Bus":"Not-include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Akash",
-            "Course":"Btech",
-            "Branch":"AIML",
-            "number":9383739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        },
-        {
-            "name":"Anuj",
-            "Course":"Btech",
-            "Branch":"AIML",
-            "number":9383739292,
-            "Bus":"include",
-            "Timig":"8:30",
-            "Admmision":2023,
-            "Passout":2027
-        }
-    ]
+  "College": [
+    {
+      "name": "Dharmendra",
+      "Course": "Btech",
+      "Branch": "AIML",
+      "number": 9383739292,
+      "Bus": "Not-include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "cfac"
+    },
+    {
+      "name": "Amit",
+      "Course": "Btech",
+      "Branch": "ME",
+      "number": 9398739292,
+      "Bus": "include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "15d0"
+    },
+    {
+      "name": "Avanish",
+      "Course": "Btech",
+      "Branch": "AIML",
+      "number": 6758739292,
+      "Bus": "include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "b838"
+    },
+    {
+      "name": "Harsh",
+      "Course": "Btech",
+      "Branch": "CSE",
+      "number": 9383739292,
+      "Bus": "include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "3cb3"
+    },
+    {
+      "name": "harshit",
+      "Course": "Btech",
+      "Branch": "CE",
+      "number": 9383739292,
+      "Bus": "include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "bf66"
+    },
+    {
+      "name": "Prince",
+      "Course": "Btech",
+      "Branch": "CSE",
+      "number": 9383739292,
+      "Bus": "Not-include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "3e87"
+    },
+    {
+      "name": "Akash",
+      "Course": "Btech",
+      "Branch": "AIML",
+      "number": 9383739292,
+      "Bus": "include",
+      "Timig": "8:30",
+      "Admmision": 2023,
+      "Passout": 2027,
+      "id": "7e9a"
+    }
+  ]
 }

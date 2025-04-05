@@ -1,6 +1,6 @@
 let DataFeching=async()=>{
 
-    const url1="http://localhost:3000/College"
+    let url1="http://localhost:3000/College"
 
     let response= await fetch(url1 ,{method:"GET"})
 
@@ -21,9 +21,18 @@ let DataFeching=async()=>{
             <td>${key.Timig}</td>
             <td>${key.Admmision}</td>
             <td>${key.Passout}</td>
+            <td align="center" onclick="Del('${key.id}')"><i class="fa-solid fa-trash"></i></td>
           </tr>
     `
   })
   
 }
+
+let Del=(id)=>{
+
+      let url=`http://localhost:3000/College/${id}` 
+  
+      fetch(url,{method:"DELETE"})
+    }
+
 DataFeching()
