@@ -5,8 +5,9 @@ let fetchData=async()=>{
     let resp = await fetch(url,{method:"GET"})
 
     let data = await resp.json()
+
     console.log(data);
-    
+
     let tabledata=document.querySelector('#table-data')
 
     data.map((key)=>{
