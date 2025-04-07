@@ -1,7 +1,7 @@
 
 function sign(){
   let uname=document.querySelector('#uname').value
-let upass=document.querySelector('#upass').value
+  let upass=document.querySelector('#upass').value
      if(upass==""){
         alert("please Enetr the password")
         document.querySelector('#upass').focus()
@@ -13,7 +13,8 @@ let upass=document.querySelector('#upass').value
         return false
       }
       localStorage.setItem("Username",uname)
-      localStorage.setItem("Userpass",upass)     
+      localStorage.setItem("Userpass",upass)
+           
 location.href="./login.html"
       return false
 }
