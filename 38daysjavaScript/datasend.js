@@ -55,6 +55,7 @@ let Del=(id)=>{
         },
         body:JSON.stringify(
         {
+    
             "name":inpname,
             "Course":inpcourse,
             "Branch":inpbranch,
