@@ -56,17 +56,6 @@
       "id": "bf66"
     },
     {
-      "name": "Prince",
-      "Course": "Btech",
-      "Branch": "CSE",
-      "number": 9383739292,
-      "Bus": "Not-include",
-      "Timig": "8:30",
-      "Admmision": 2023,
-      "Passout": 2027,
-      "id": "3e87"
-    },
-    {
       "name": "Akash",
       "Course": "Btech",
       "Branch": "AIML",
@@ -76,6 +65,28 @@
       "Admmision": 2023,
       "Passout": 2027,
       "id": "7e9a"
+    },
+    {
+      "id": "9d0a",
+      "name": "dharmendra",
+      "Course": "AIML",
+      "Branch": "CSE",
+      "number": "9769797",
+      "Bus": "not",
+      "Timig": "10:10",
+      "Admmision": "2024",
+      "Passout": "2028"
+    },
+    {
+      "id": "a52b",
+      "name": "Ravi",
+      "Course": "Mtech",
+      "Branch": "CSIT",
+      "number": "8675656",
+      "Bus": "include",
+      "Timig": "11:30",
+      "Admmision": "2025",
+      "Passout": "2029"
     }
   ]
 }
