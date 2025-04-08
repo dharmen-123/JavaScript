@@ -46,7 +46,7 @@ let Upd=async(id)=>{
    console.log(data);
    let updform = document.querySelector('#updfrom')
 
-       updform.innerHTML+=`
+       updform.innerHTML =`
        Enter Name : <input type="text" id="name" value="${data.name}" > <br><br>
      Enter Branch: 
      <select name="" id="branch" value="${data.Branch}">
@@ -66,10 +66,13 @@ let Upd=async(id)=>{
      Enter Admission: <input type="number" id="admission" value="${data.Admmision}"> <br><br>
      Enter Passout: <input type="number" id="passout" value="${data.Passout}"> <br><br>    
   
-      <input type="submit" value="submit" onclick="return finalupd("${data.id}")">
+      <input type="submit" value="submit" onclick="return Finalupd("${data.id}")">
    `
-   
 }
+let Finalupd=()=>{
+
+}
+
 let Details=()=>{
 
     let inpname = document.querySelector('#name').value        
