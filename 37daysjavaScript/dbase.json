@@ -56,17 +56,6 @@
       "id": "bf66"
     },
     {
-      "name": "Akash",
-      "Course": "Btech",
-      "Branch": "AIML",
-      "number": 9383739292,
-      "Bus": "include",
-      "Timig": "8:30",
-      "Admmision": 2023,
-      "Passout": 2027,
-      "id": "7e9a"
-    },
-    {
       "id": "9d0a",
       "name": "dharmendra",
       "Course": "AIML",
@@ -78,15 +67,37 @@
       "Passout": "2028"
     },
     {
-      "id": "a52b",
-      "name": "Ravi",
-      "Course": "Mtech",
-      "Branch": "CSIT",
-      "number": "8675656",
+      "id": "e633",
+      "name": "Devansh",
+      "Course": "Btech",
+      "Branch": "CE",
+      "number": "9876865765",
+      "Bus": "not",
+      "Timig": "10:10",
+      "Admmision": "2023",
+      "Passout": "2027"
+    },
+    {
+      "id": "792f",
+      "name": "shivam",
+      "Course": "Btech",
+      "Branch": "ME",
+      "number": "8768990889",
       "Bus": "include",
-      "Timig": "11:30",
+      "Timig": "07:00",
       "Admmision": "2025",
       "Passout": "2029"
+    },
+    {
+      "id": "0732",
+      "name": "ravi",
+      "Course": "Btech",
+      "Branch": "EX",
+      "number": "975979876",
+      "Bus": "include",
+      "Timig": "07:00",
+      "Admmision": "2024",
+      "Passout": "2028"
     }
   ]
 }

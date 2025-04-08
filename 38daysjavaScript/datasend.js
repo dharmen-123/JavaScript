@@ -35,9 +35,8 @@ let Del=(id)=>{
   
       fetch(url,{method:"DELETE"})
     }
+let Details=()=>{
 
-
-    let Details=()=>{
     let inpname = document.querySelector('#name').value        
     let inpcourse = document.querySelector('#Course').value
     let inpbranch = document.querySelector('#branch').value
@@ -48,14 +47,12 @@ let Del=(id)=>{
     let inpnum = document.querySelector('#number').value
 
       let  url="http://localhost:3000/College"
-
       fetch(url,{method:"POST",
         headers:{
             "Content-Type":"application/json"
         },
         body:JSON.stringify(
         {
-    
             "name":inpname,
             "Course":inpcourse,
             "Branch":inpbranch,
@@ -67,5 +64,4 @@ let Del=(id)=>{
         })
       })
   return false
-
     }
