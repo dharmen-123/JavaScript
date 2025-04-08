@@ -23,7 +23,8 @@ let DataFeching=async()=>{
             <td>${key.Admmision}</td>
             <td>${key.Passout}</td>
             <td align="center" onclick="Del('${key.id}')">Delete</i></td>
-          </tr>
+            <td onclick="Upd('${key.id}')">Edit</td>
+            </tr>
     `
   })
   
@@ -32,9 +33,15 @@ let DataFeching=async()=>{
 let Del=(id)=>{
 
       let url=`http://localhost:3000/College/${id}` 
-  
       fetch(url,{method:"DELETE"})
+
     }
+
+let Upd=(id)=>{
+
+   let url=`http://localhost:3000/College/${id}`
+   
+}
 let Details=()=>{
 
     let inpname = document.querySelector('#name').value        
