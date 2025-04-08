@@ -37,9 +37,37 @@ let Del=(id)=>{
 
     }
 
-let Upd=(id)=>{
+let Upd=async(id)=>{
 
    let url=`http://localhost:3000/College/${id}`
+   let res = await fetch(url,{method:"GET"})
+
+   let data=await res.json()
+   console.log(data);
+   let updform = document.querySelector('#updfrom')
+
+       updform.innerHTML+=`
+       Enter Name : <input type="text" id="name" value="${data.name}" > <br><br>
+     Enter Branch: 
+     <select name="" id="branch" value="${data.Branch}">
+        <option value="Select">Select</option>
+        <option value="CSE">CSE</option>
+        <option value="AIML">AIML</option>
+        <option value="CSIT">CSIT</option>
+        <option value="CSCY">CSCY</option>
+        <option value="CE">CE</option>
+        <option value="ME">ME</option>
+        <option value="EX">EX</option>
+     </select> <br><br>    
+     Enter Course: <input type="text" id="Course" value="${data.Course}"> <br><br>
+     Enter Number: <input type="number" id="number" value="${data.number}"> <br><br>
+     Enter Bus: <input type="text" id="bus" value="${data.Bus}"> <br><br>    
+     Enter College Timing: <input type="time" id="timing" value="${data.Timig}"> <br><br>
+     Enter Admission: <input type="number" id="admission" value="${data.Admmision}"> <br><br>
+     Enter Passout: <input type="number" id="passout" value="${data.Passout}"> <br><br>    
+  
+      <input type="submit" value="submit" onclick="return finalupd("${data.id}")">
+   `
    
 }
 let Details=()=>{
