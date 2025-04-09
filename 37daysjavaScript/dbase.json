@@ -47,12 +47,12 @@
     {
       "name": "harshit",
       "Course": "Btech",
-      "Branch": "CE",
-      "number": 9383739292,
-      "Bus": "include",
-      "Timig": "8:30",
-      "Admmision": 2023,
-      "Passout": 2027,
+      "Branch": "Select",
+      "number": "9383739292",
+      "Bus": "not",
+      "Timig": "",
+      "Admmision": "2023",
+      "Passout": "2027",
       "id": "bf66"
     },
     {
@@ -89,15 +89,15 @@
       "Passout": "2029"
     },
     {
-      "id": "2e1b",
-      "name": "raj",
-      "Course": "Mtech",
+      "id": "c7f1",
+      "name": "Raj",
+      "Course": "Btech",
       "Branch": "ME",
-      "number": "786756",
+      "number": "0987054",
       "Bus": "include",
-      "Timig": "08:43",
-      "Admmision": "2026",
-      "Passout": "2030"
+      "Timig": "10:00",
+      "Admmision": "2023",
+      "Passout": "2027"
     }
   ]
 }

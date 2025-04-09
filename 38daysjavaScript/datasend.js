@@ -44,7 +44,7 @@ let Upd=async(id)=>{
 
    let data=await res.json()
    console.log(data);
-   let updform = document.querySelector('#updfrom')
+   let updform = document.querySelector('#updform')
        updform.innerHTML = `
 
        Enter Name : <input type="text" id="upname" value="${data.name}" > <br><br>
@@ -66,10 +66,10 @@ let Upd=async(id)=>{
      Enter Admission: <input type="number" id="upadmission" value="${data.Admmision}"> <br><br>
      Enter Passout: <input type="number" id="uppassout" value="${data.Passout}"> <br><br>    
   
-      <input type="submit" value="submit" onclick="return Finalupd("${data.id}")">
+      <input type="submit" value="submit" onclick="return Finalupd('${data.id}')">
    `
 }
-let Finalupd=()=>{
+let Finalupd=(id)=>{
      
     let inpname = document.querySelector('#upname').value        
     let inpcourse = document.querySelector('#upCourse').value
@@ -81,6 +81,7 @@ let Finalupd=()=>{
     let inpnum = document.querySelector('#upnumber').value
 
       let  url=`http://localhost:3000/College/${id}`
+
       fetch(url,{method:"PUT",
         headers:{
             "Content-Type":"application/json"
