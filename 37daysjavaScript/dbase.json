@@ -89,15 +89,15 @@
       "Passout": "2029"
     },
     {
-      "id": "0732",
-      "name": "ravi",
-      "Course": "Btech",
-      "Branch": "EX",
-      "number": "975979876",
+      "id": "2e1b",
+      "name": "raj",
+      "Course": "Mtech",
+      "Branch": "ME",
+      "number": "786756",
       "Bus": "include",
-      "Timig": "07:00",
-      "Admmision": "2024",
-      "Passout": "2028"
+      "Timig": "08:43",
+      "Admmision": "2026",
+      "Passout": "2030"
     }
   ]
 }
