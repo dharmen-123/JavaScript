@@ -1,4 +1,3 @@
-
 function sign(){
   let uname=document.querySelector('#uname').value
   let upass=document.querySelector('#upass').value
@@ -18,7 +17,6 @@ function sign(){
 location.href="./login.html"
       return false
 }
-
 
 function log(){
   let loginname=document.querySelector('#loginname').value

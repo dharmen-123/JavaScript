@@ -34,10 +34,9 @@ let Del=(id)=>{
 
       let url=`http://localhost:3000/College/${id}` 
       fetch(url,{method:"DELETE"})
-
     }
 
-let Upd=async(id)=>{
+  let Upd=async(id)=>{
 
    let url=`http://localhost:3000/College/${id}`
    let res = await fetch(url,{method:"GET"})
