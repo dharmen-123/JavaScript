@@ -6,7 +6,7 @@
  // }
  // Sum()
    
-
+ 
 //write a program to check number is even or odd using 
 // Q.2  with argument and no return type
 

@@ -100,6 +100,7 @@ let Finalupd=(id)=>{
   return false     
 }
 
+
 let Details=()=>{
 
     let inpname = document.querySelector('#name').value        
