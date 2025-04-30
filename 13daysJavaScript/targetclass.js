@@ -39,4 +39,3 @@ else{
     document.write("not eligible")
 }
 
-

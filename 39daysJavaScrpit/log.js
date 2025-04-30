@@ -25,7 +25,8 @@ function sinup()
     }
         localStorage.setItem("username",spname)
         localStorage.setItem("password",spass)
-      
+         
+        
 location.href="./login.html"
 return false
 
@@ -38,6 +39,7 @@ function logine()
 
     let name=localStorage.getItem("username")
     let password=localStorage.getItem("password")
+    console.log(name , password);
 
     if(lgname==name && lgpass==password)
     {
