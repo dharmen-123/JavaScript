@@ -1,3 +1,5 @@
+// In javascript
+
 console.log("JAVA SCRIPT")
 //  let a=10
 // let b=29
