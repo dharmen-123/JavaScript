@@ -8,8 +8,12 @@
 // debugger
 // console.log(a);
 
-var a=20;
-var b=20;
-console.log(a===b);
+// var a=20;
+// var b=20;
+// console.log(a===b);
 
+
+// document.getElementsByTagName('button'),addEventListener('click',{
+
+// })
 
