@@ -1,13 +1,8 @@
 let DataFeching=async()=>{
-
     let url1="http://localhost:3000/College"
-
     let response= await fetch(url1 ,{method:"GET"})
-
     let data1=await response.json()
-
     console.log(data1);
-    
  let  datashow = document.querySelector('#show')
 
     data1.map((key)=>{ 
