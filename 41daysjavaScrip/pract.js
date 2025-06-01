@@ -26,22 +26,39 @@
 //  undefined
 //  null
 //  Symbol
-
+  
 //   NON primitive data Types
 //    Object 
 //    Array 
 
-let a="Dharmendra";
-let b=10;
-let c=20283829293829n;
-let d=true;
-let e;
-let f=null;
-let g=("id");
-console.log(typeof(a));
-console.log(typeof(b));
-console.log(typeof(c));
-console.log(typeof(d));
-console.log(typeof(e));
-console.log(typeof(f));
-console.log(typeof(g));
+// let a="Dharmendra";
+// let b=10;
+// let c=20283829293829n;
+// let d=true;
+// let e;
+// let f=null;
+// let g=Symbol(10);
+// console.log(typeof(a));
+// console.log(typeof(b));
+// console.log(typeof(c));
+// console.log(typeof(d));
+// console.log(typeof(e));
+// console.log(typeof(f));
+// console.log(typeof(g));
+
+// console.log("5"==5);
+// console.log("5"===5);
+
+// == this sign compare the values 
+// === this is the strictle equality sign  also compare the type of values
+ 
+//    ############# HOISTING In JavaScript #############
+//  Hoisting means the declaration of variable to top of the scope 
+   
+//    console.log(x);
+//    var x=10;
+   
+// ###### CLOUSERS in JavaScript 
+
+
+
