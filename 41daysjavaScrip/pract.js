@@ -101,3 +101,12 @@
 //  ########### Difference between null and undefined 
 // undefined : A variable is declared but not assign value 
 // null : An assignment null  value that represent no value 
+
+// ############# TEMPLATE LITERALS ##############
+
+// Tempkate literals allow the embedding expression inside the String literals using these backticks `` and ${} pass the expression inside the curly bracess 
+// Example 
+ let name=" dharmendra Chilhate";
+  let greet =`Hello ${name}`;
+  console.log(greet);
+  
