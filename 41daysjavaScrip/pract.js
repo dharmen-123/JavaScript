@@ -106,7 +106,23 @@
 
 // Tempkate literals allow the embedding expression inside the String literals using these backticks `` and ${} pass the expression inside the curly bracess 
 // Example 
- let name=" dharmendra Chilhate";
-  let greet =`Hello ${name}`;
-  console.log(greet);
+//  let name=" dharmendra Chilhate";
+//   let greet =`Hello ${name}`;
+//   console.log(greet);
   
+// ############# Difference  between function declaration and function expression 
+
+// greet()
+// // function declaration 
+// function greet(){
+//     console.log("Hello");
+// }
+
+// hy()   // Give error 
+// // function expression 
+// const hy = function(){
+//     console.log("Hii");   
+// }
+
+// // greet()
+// // hy()
