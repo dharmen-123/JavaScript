@@ -60,5 +60,41 @@
    
 // ###### CLOUSERS in JavaScript 
 
+// A clouser is the function that retains access to its scope even after  the outer function has finished executing 
 
+// function outer(){
+//     let c=0;
+     
+//     function inner(){
+//         c++;
+//         console.log(c);
+//     }
+//     return inner;
+// }
+
+// const count=outer();
+// count();
+// count();
+// count();
+// count();
+
+
+// #### Differencen between let , var , const 
+
+// var is the global scope and it follow hoisting also reassignable
+// let is block of scope and it not follow hosting and it reassignable
+// const is block of scope and it does not follow hoisting and it is not reassignable
+
+
+// if(true){
+// console.log(c);   // hoisting
+// var a=20;
+// a=50;
+// let b=10;
+// b=40;
+// const c=30;
+//     console.log(b);
+
+// }
+//     console.log(a);
 
