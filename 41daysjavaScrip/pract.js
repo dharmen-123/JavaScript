@@ -98,3 +98,6 @@
 // }
 //     console.log(a);
 
+//  ########### Difference between null and undefined 
+// undefined : A variable is declared but not assign value 
+// null : An assignment null  value that represent no value 
